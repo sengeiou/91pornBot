@@ -11,6 +11,11 @@
 由于电报Bot单次发送最大50M文件，切割发送视频(MP4Box大法好!!!)
 
 
+## 环境
+
+jdk1.8
+
+MP4Box、Ffmpeg安装。
 
 MP4Box 安装
 https://gpac.wp.imt.fr/downloads/
