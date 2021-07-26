@@ -15,8 +15,28 @@
 
 jdk1.8
 
+电报机器人申请
+
 MP4Box、Ffmpeg安装。
 
 MP4Box 安装
 https://gpac.wp.imt.fr/downloads/
 https://github.com/gpac/gpac/wiki/GPAC-Build-Guide-for-Linux
+
+
+配置在yml
+
+```
+        #是否开启代理
+        proxy_on: true
+        #ffmpeg 路径
+        ffmpeg_root: E:\\Utils\\ffmpeg\\bin\\
+        #MP4Box 路径
+        mp4box_root: E:\\Utils\\GPAC\\mp4box
+        #临时文件路径
+        fileroot: "F:\\m3u8JavaTest\\"
+        #发送telegram目的id
+        chat_id: "****"
+        bot_token: "************************"
+
+```
