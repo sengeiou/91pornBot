@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "app.proxyOn",
+      "type": "java.lang.String",
+      "description": "Description for app.proxyOn."
+  }
+] }

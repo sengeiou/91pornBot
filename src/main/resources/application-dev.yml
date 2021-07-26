@@ -1,0 +1,19 @@
+
+myappconfig:
+        #是否开启代理
+        proxy_on: true
+        #ffmpeg 路径
+        ffmpeg_root: E:\\Utils\\ffmpeg\\bin\\
+        #MP4Box 路径
+        mp4box_root: E:\\Utils\\GPAC\\mp4box
+        #临时文件路径
+        fileroot: "F:\\m3u8JavaTest\\"
+        #发送telegram目的id
+        chat_id: "****"
+        bot_token: "************************"
+logging:
+  file:
+    path: E:\LianXi\demo\target\
+    name: porn.log
+  level:
+    root: info

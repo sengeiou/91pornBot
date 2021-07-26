@@ -1,0 +1,29 @@
+
+spring:
+  profiles:
+#    active: dev
+    active: prod
+
+
+server:
+  tomcat:
+    acceptCount: 700
+    max-connections: 20000
+    max-threads: 60
+    min-SpareThreads: 100
+    uri-encoding: UTF-8
+
+
+
+log4j:
+  logger:
+    com:
+      gargoylesoftware:
+        htmlunit: fatal
+        htmlunit.WebTestCase: fatal
+        htmlunit.javascript.DebugFrameImpl: fatal
+    httpclient:
+      wire: fatal
+    org:
+      apache:
+        commons: fatal

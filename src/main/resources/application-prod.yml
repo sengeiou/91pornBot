@@ -1,0 +1,13 @@
+myappconfig:
+  proxy_on: false
+  ffmpeg_root: "/usr/bin/"
+  mp4box_root: " /video/gpac_public/bin/gcc/MP4Box"
+  fileroot: "/video/"
+  chat_id: "***********"
+  bot_token: "********************"
+logging:
+  file:
+    path: /video/
+    name: porn.log
+  level:
+    root: info
